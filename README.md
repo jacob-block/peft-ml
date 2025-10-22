@@ -13,11 +13,13 @@ Repository Structure
 
 Each subdirectory corresponds to one experiment suite used in the paper.
 
+```
 peft-ml/
 ├── convai/        # Language experiments
 ├── vision/        # Vision experiments
 ├── linear/        # Synthetic linear regression experiments
 └── shallow/       # Synthetic shallow network experiments
+```
 
 Each subdirectory contains its own README.md describing the setup.
 
@@ -34,15 +36,17 @@ You can install them with:
 Citation
 ------------------------------------------------------------
 
+```bibtex
 @inproceedings{provableMetaLearningLoRA,
   title={Provable Meta-Learning with Low-Rank Adaptations},
   author={Jacob L. Block and Sundararajan Srinivasan and Liam Collins and Aryan Mokhtari and Sanjay Shakkottai},
   booktitle={Advances in Neural Information Processing Systems},
   year={2025}
 }
+```
 
 ------------------------------------------------------------
 License
 ------------------------------------------------------------
 
-This project is licensed under the MIT License (see LICENSE file).
+This project is licensed under the Apache 2.0 License (see LICENSE file).
